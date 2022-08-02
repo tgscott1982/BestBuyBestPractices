@@ -5,7 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace BestBuyBestPractices;
-internal interface IDepartmentRepository
+public interface IDepartmentRepository
 {
+    public IEnumerable<Department> GetAllDepartments();
+
 
 }
